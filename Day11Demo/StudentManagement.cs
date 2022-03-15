@@ -1,13 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-// Basic OOP Principle
-// Loose binding vs Tight Binding
-
-// S O L I D - Design principles of OOP
-// S - Single Responsibility Principle
-// O - Open - Close Principle (Classes should be closed to modification and open to extension)
-
 interface IMenuClickable
 {
     public void DoClearScreen();

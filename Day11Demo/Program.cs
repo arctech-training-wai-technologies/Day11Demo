@@ -1,11 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Day11Demo;
 
-Console.WriteLine("Hello, World!");
+// Basic OOP Principle
+// Loose binding vs Tight Binding
 
-IEmployee employee = new Employee();
-employee.Initialize(10, "Raman", 40);
-employee.Show();
+// S O L I D - Design principles of OOP
+// S - Single Responsibility Principle
+// O - Open - Close Principle (Classes should be closed to modification and open to extension)
+
+using Day11Demo.BgmiGame;
+
+BgmiGame game = new BgmiGame();
+game.Start();
+
+//IEmployee employee = new Employee();
+//employee.Initialize(10, "Raman", 40);
+//employee.Show();
 
 //StudentManagement studentManagement = new StudentManagement();
 //studentManagement.Start();
